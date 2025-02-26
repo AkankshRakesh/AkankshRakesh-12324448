@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="flex h-16 justify-between lg:justify-evenly mx-10 lg:mx-0 items-center">
+        <img src="https://www.pizzahut.co.in/order/images/logos/logo_wide@x2.38f9109e24d22d58d048837b27f54390.png" alt="" class="h-1/2 ">
+        <div>Sign in </div>
+    </nav>
+    <div class="flex justify-center ">
+        <!-- <div class="bg-[url(https://www.pizzahut.co.in/order/images/backgrounds/in/en-IN/home-bg-md.9dd31be8f7ced8c87278cb3aa6726170.jpg)] bg-no-repeat">sd</div> -->
+        <img src="https://www.pizzahut.co.in/order/images/backgrounds/in/en-IN/home-bg-md.9dd31be8f7ced8c87278cb3aa6726170.jpg" alt="" class="absolute">
+        
+    </div>
+    <div class="flex justify-center items-center mt-80">
+        <div class="absolute bg-white rounded-md p-3 border-2 shadow-2xl">
+            <div class="h-10 flex justify-center items-center">
+                <div class="px-10 border-r-2 border-black"><i class="fa-solid fa-motorcycle mr-3 p-1 border-2 border-black rounded-full"></i>Delivery</div>
+                <div class="px-10"><i class="fa-solid fa-store mr-3 p-1 border-2 border-black rounded-full"></i>Collect from Store</div>
+            </div>
+            <div class="mx-3 mt-6">
+                <div class="font-bold">FIND YOUR NEAREST HUT</div>
+                <div class="mt-3">Enter your address to see your local deals, coupons and offers.</div>
+                <input class="w-full p-4 border mt-3 border-gray-300" placeholder="Enter your location for delivery"/>
+                <button class="w-full mb-3 text-left p-4 border text-blue-500 border-gray-300"><i class="fa-solid fa-location-dot mr-2"></i>Find my current location</button>
+            </div>
+        </div>
+    </div>
+    <div class="mx-3">
+        <div class="mt-48">
+            <div class="flex items-center justify-center">
+                <hr class="flex-grow border-t border-gray-300">
+                <span class="mx-3 text-2xl font-semibold">Our most popular deals</span>
+                <hr class="flex-grow border-t border-gray-300">
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-6">
+            <img src="https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/hut125.5893dee123b1a79e089241a83f936067.1.jpg" alt="">
+            <img src="https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/hut125.5893dee123b1a79e089241a83f936067.1.jpg" alt="">
+        </div>
+        <div>
+            <button class="bg-[#0a8020] w-full text-lg font-semibold my-4 rounded-lg p-3 text-white mb-8">View All Deals</button>
+        </div>
+    </div>
+    <div class="footer bg-black pt-5 pb-3">
+        <div class="grid grid-cols-4 text-white py-4 gap-8 px-8 ml-3">
+            <div class="flex flex-col">
+                <div class="text-xl">Order now</div>
+                    <div class="text-xs">Deals</div>
+                    <div class="text-xs">Pizza</div>
+                    <div class="text-xs">Sides</div>
+                    <div class="text-xs">Drinks</div>
+                    <div class="text-xs">Desserts</div>
+            </div>
+            <div class="flex flex-col">
+                <div class="text-xl">About</div>
+                    <div class="text-xs">About Us</div>
+                    <div class="text-xs">Contactless delivery</div>
+                    <div class="text-xs">Nutrition</div>
+                    <div class="text-xs">Career</div>
+            </div>
+            <div class="flex flex-col">
+                <div class="text-xl">Our Policies</div>
+                    <div class="text-xs">Privacy</div>
+                    <div class="text-xs">Terms & Conditions</div>
+                    <div class="text-xs">Responsible disclosure</div>
+                    <div class="text-xs">FAQs & Help</div>
+            </div>
+            <div class="flex flex-col">
+                <div class="text-xl">Visit Pizza Hut</div>
+                <div class="text-xs">Locate a store</div>
+                <div class="text-xs">Global Blog</div>
+            </div>
+        </div>
+        <div class="flex justify-center gap-4 mt-3">
+            <div><img src="https://www.pizzahut.co.in/order/images/icons/app-store-ios.fd6d0921ff522febd6e2a4c2fab9af72.svg" alt=""></div>
+            <!-- <div><img src="https://www.pizzahut.co.in/order/images/icons/app-store-ios.fd6d0921ff522febd6e2a4c2fab9af72.svg" alt=""></div> -->
+            <div><img src="https://www.pizzahut.co.in/order/images/icons/app-store-google-play.b1ffb9f40420b63efe43e34f60bfb682.png" alt="" class="w-32"></div>
+        </div>
+        <div class="grid grid-cols-2 text-center text-white mt-5 mx-5">
+            <div class="">
+                <div>Help us in serving you better</div>
+                <button class="bg-white w-full text-lg font-semibold mt-3 rounded-lg p-2 text-black mb-8">Give feedback</button>
+            </div>
+            <div>
+                <div>Follow us</div>
+                <div class="flex justify-center gap-5 mt-3">
+                    <div><i class="fa-brands fa-facebook-f text-xl"></i></div>
+                    <div><i class="fa-brands fa-twitter text-xl"></i></div>
+                    <div><i class="fa-brands fa-instagram text-xl"></i></div>
+                    <div><i class="fa-brands fa-youtube text-xl"></i></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
